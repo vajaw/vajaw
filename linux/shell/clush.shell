@@ -1,0 +1,9 @@
+## 介绍
+通过 clush 可以批量管理多台服务器执行相同的命令
+
+## 使用
+clush -[option] group组名 "要执行的命令"
+
+## 例子
+从当前服务器copy文件到远程多个服务器上
+clush -g slave --copy $file --dest $file 注意中间要加--dest
