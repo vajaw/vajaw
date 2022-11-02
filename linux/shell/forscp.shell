@@ -1,0 +1,1 @@
+for i in {209..212}; do scp -r /opt/data1/vaja/starrocks/StarRocks-2.3.3 root@10.50.30.$i:/opt/data1/vaja/starrocks/; done
