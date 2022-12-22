@@ -1,0 +1,2 @@
+ 1、确认机器上是否有正在启动的mariadb服务，如果有正在启用的服务，注意换机器安装
+ service mariadb status
